@@ -21,9 +21,22 @@ Ensure you have the required dependencies installed:
 
 ```bash
 pip install pandas numpy scikit-learn xgboost transformers datasets
+```
 
-For Hugging Face integration, log in using:
-```bash
+For Hugging Face integration, log in using:  
+
+```python
 from huggingface_hub import notebook_login
 notebook_login()
+```
 
+## 🚀 Usage  
+1. Open the notebook in **Jupyter** or **Google Colab**.  
+2. Run the cells step by step for data preprocessing, model training, and evaluation.  
+3. Modify hyperparameters or add custom models for further experimentation.  
+
+## 📢 Contributing  
+Feel free to submit issues or pull requests to enhance the project.  
+
+## 📜 License  
+This project is licensed under the **MIT License**.  
